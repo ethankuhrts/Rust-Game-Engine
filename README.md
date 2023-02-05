@@ -1,5 +1,4 @@
 # Rust-Game-Engine
-# Rust-Game-Engine
 A game engine built with the Rust programming language.
 
 NOT ANYWHERE NEAR A PRODUCTION STATE

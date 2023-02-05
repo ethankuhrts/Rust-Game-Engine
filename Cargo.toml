@@ -1,0 +1,38 @@
+[package]
+name = "game-engine"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wvreng"
+path = "src/engine/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfg-if = "1"
+winit = "0.27"
+env_logger = "0.10.0"
+log = "0.4"
+wgpu = "0.14"
+specs = { version = "0.18.0", features = ["specs-derive"] }
+pollster = "0.2.5"
+glam = "0.22.0"
+bytemuck = { version = "1.4", features = [ "derive" ] }
+chrono = "0.4"
+anyhow = "1.0"
+reqwest = { version = "0.11" }
+tobj = { version = "3.2.1", features = [
+    "async",
+]}
+indexmap = "1.9.2"
+
+[dependencies.image]
+version = "0.24"
+default-features = false
+features = ["png", "jpeg"]
+
+[build-dependencies]
+anyhow = "1.0"
+fs_extra = "1.2"
+glob = "0.3"
