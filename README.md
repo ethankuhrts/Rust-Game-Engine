@@ -1,7 +1,8 @@
 # Rust-Game-Engine
-A game engine built with the Rust programming language.
+A rendering / game engine built with the Rust programming language.
 
-NOT ANYWHERE NEAR A PRODUCTION STATE
+# This is a hobby project.
+Not in a production state, this is a hobby project of mine and am using it as a chance to learn Rust and low level game development.
 
 Dependencies
  - WGPU for graphics 
