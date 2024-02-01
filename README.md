@@ -1,7 +1,7 @@
 # Rust-Game-Engine
 A rendering / game engine built with the Rust programming language.
 
-# This is a hobby project.
+## This is a hobby project.
 Not in a production state, this is a hobby project of mine and am using it as a chance to learn Rust and low level game development.
 
 Dependencies
